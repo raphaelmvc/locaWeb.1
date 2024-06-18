@@ -3,7 +3,6 @@ package br.com.fiap.locaweb
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.navigation.NavigationView
-import br.com.fiap.locaweb.utils.EmailUtil
 
 class MainActivity : AppCompatActivity() {
 
