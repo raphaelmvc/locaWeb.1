@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:title="Caixa de Entrada"
+            app:actionLayout="@layout/item_menu_email"
+            />
+        <item
+            android:id="@+id/nav_item2"
+            android:title="Favoritos"
+            app:actionLayout="@layout/item_menu_email"
+            />
+        <item
+            android:id="@+id/nav_item3"
+            android:title="Enviados"
+            app:actionLayout="@layout/item_menu_email"
+            />
+        <item
+            android:id="@+id/nav_item4"
+            android:title="Rascunhos"
+            app:actionLayout="@layout/item_menu_email"
+            />
+        <item
+            android:id="@+id/nav_item5"
+            android:title="Spam"
+            app:actionLayout="@layout/item_menu_email"
+            />
+        <item
+            android:id="@+id/nav_item6"
+            android:title="Lixeira"
+            app:actionLayout="@layout/item_menu_email"
+            />
+    </group>
+
+</menu>
+
